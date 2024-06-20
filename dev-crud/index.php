@@ -44,10 +44,10 @@
                                 echo "<thead>";
                                     echo "<tr>";
                                         echo "<th>#</th>";
-                                        echo "<th>Name</th>";
-                                        echo "<th>Address</th>";
-                                        echo "<th>Salary</th>";
-                                        echo "<th>Action</th>";
+                                        echo "<th>tiltles</th>";
+                                        echo "<th>members</th>";
+                                        echo "<th>date created</th>";
+                                        echo "<th>status</th>";
                                     echo "</tr>";
                                 echo "</thead>";
                                 echo "<tbody>";
