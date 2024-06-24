@@ -45,10 +45,8 @@
                                     echo "<tr>";
                                         echo "<th>#</th>";
                                         echo "<th>tiltles</th>";
-                                        echo "<th>members</th>";
-                                        echo "<th>date created</th>";
-                                        echo "<th>action</th>";
-                                        
+                                        echo "<th>members</th>"; 
+                                        echo "<th>action</th>";                                                                                                         
                                     echo "</tr>";
                                 echo "</thead>";
                                 echo "<tbody>";
@@ -57,7 +55,7 @@
                                         echo "<td>" . $row['id'] . "</td>";
                                         echo "<td>" . $row['name'] . "</td>";
                                         echo "<td>" . $row['address'] . "</td>";
-                                        echo "<td>" . $row['#'] . "</td>";
+                                 
                                         echo "<td>";
                                             echo '<a href="read.php?id='. $row['id'] .'" class="mr-3" title="View Record" data-toggle="tooltip"><span class="fa fa-eye"></span></a>';
                                             echo '<a href="update.php?id='. $row['id'] .'" class="mr-3" title="Update Record" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>';
